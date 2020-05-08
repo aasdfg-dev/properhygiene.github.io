@@ -1,0 +1,158 @@
+body{
+	margin:0;
+	padding: 0;
+	background:url(sircle.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	
+}
+.container{
+	width:80%;
+	margin:0 auto;
+}
+header{
+	background-image:url(hygiene.gif);
+	background-attachment:fixed;
+	background-repeat: repeat-x;
+}
+header::after{
+	content:'';
+	display:table;
+	clear: both;
+}
+.logo{
+	float: left;
+	padding: 10px 0;
+}
+nav{
+	float:right;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 23px;
+	
+	position: relative;
+}
+nav a{
+	color: #f2f2f2;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size:14px;
+}
+nav a:hover{
+	color: #99ff99;
+}
+nav a::hover{
+	content: '';
+	display: #ccf2ff;
+	height: 5px;
+	width: 100px;
+	background-color: blue;
+	
+	position:absolute;
+	top:0;
+	width:0;
+	
+	transition: all case-in-out 250ms;
+}
+nav a::hover::before{
+	width: 100%;
+}
+.LogInBox{
+	width: 320px;
+	height: 450px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 90px 30px;
+}
+.avatar{
+	width:  100px;
+	height: 100px;
+	border-radius: 60%;
+	position:fixed;
+	top: -0px;
+	left:(50%-60px);
+}
+.h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.LogInBox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.LogInBox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.LogInBox input[type="text"], input[type="password"
+]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#fff;
+	font-size: 16px;
+}
+.LogInBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.LogInBox input[type="submit"];hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.LogInBox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+.LogInBox a:hover{
+	color: #ffc107;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

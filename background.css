@@ -1,0 +1,40 @@
+	body{
+	margin:0;
+	padding:0;
+	}
+	.container{
+	background-color:#blues;
+	height:100vh;
+	width:220vh;
+	display: flex;
+		text-align:justify;
+		text-justify:inter-world;
+	}
+	.text{
+		font-size: 55px;
+		height:200px;
+		width:845px;
+		transform: translate(35%,50%);
+		background:url(hygiene.gif);
+		background-size: 650px 200px;
+		font-size: 110px;
+		font-family:forte;
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		position: absolute;
+		top: 25%
+	}
+	.click{
+		font-size:5px;
+		height:100px;
+		width:200px;
+		text-align:center;
+		transform: translate(25%,20%);
+		font-size: 50px;
+		font-family:'forte', forte;
+		position: relative;
+		left: 15%
+		
+		
+	}
+	
